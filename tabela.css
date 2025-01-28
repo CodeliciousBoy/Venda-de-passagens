@@ -1,0 +1,56 @@
+.body{
+    margin: 0;
+}
+
+.main{
+    background-color: #4A8FE7;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.esquerda{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+.esquerda-titulo{
+    color: #FFFFFF;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+}
+
+.esquerda-imagem{
+    width: 30vw;
+}
+
+.direita{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tabela{
+    align-content: center;
+    background-color: #FFFFFF;
+    border-spacing: 0;
+}
+
+.tailandia {
+    background-image: linear-gradient(to right, #ED1C24 0%, #ED1C24 20%, #FFFFFF 20%, #FFFFFF 40%, #241D4F 40%, #241D4F 60%, #FFFFFF 60%, #FFFFFF 80%, #ED1C24 80%, #ED1C24 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+

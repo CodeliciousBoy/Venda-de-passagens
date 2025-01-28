@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Passagem</title>
+</head>
+<body>
+    <div>
+        <form id="formulario" autocomplete="off" method="post">
+            <fieldset class="field">
+                <legend><h1>Dados do passageiro</h1></legend>
+                
+                <table>
+                    <tr>
+                        <td><label for="nome">Nome: </label></td>
+                        <td><input type="text" name="nome" id="nome" required="required" placeholder="Nome completo"/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">E-mail: </label></td>
+                        <td><input type="email" name="email" id="email" required="required" placeholder="E-mail"/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="idade">Idade: </label></td>
+                        <td><input type="text" name="idade" id="idade" maxlength="3" required="required" placeholder="Idade"/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="telefone">Telefone: </label></td>
+                        <td><input type="text" name="telefone" id="telefone" required="required" placeholder="Telefone"/></td>
+                    </tr>
+                </table>
+
+                <br/>
+                Sexo:<br/>
+                <label><input type="radio" name="sexo" value="masculino"/> Masculino</label>
+                <br/>
+                <label><input type="radio" name="sexo" value="feminino"/> Feminino</label>
+                <br/>
+                <label><input type="radio" name="sexo" value="naobinario"/> Não Binário</label>
+                <br/>
+                <label><input type="radio" name="sexo" value="prefironaodizer"/> Prefiro não dizer</label>
+                <br/><br/>
+                
+                Motivos da Viagem: <br/>
+                <label><input type="checkbox" name="lazer"/> Lazer</label>
+                <br/>
+                <label><input type="checkbox" name="negocios"/> Negócios</label>
+                <br/>
+                <label><input type="checkbox" name="eventosesportivos"/> Eventos Esportivos</label>
+                <br/>
+                <label><input type="checkbox" name="cursos"/> Cursos</label>
+                <br/><br/>
+
+                <label>Comentarios:</label><br><textarea class="comentarios" cols="155" rows="5"></textarea><br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Apagar">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
